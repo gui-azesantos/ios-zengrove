@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D4B42E92B9B96A60015C59A /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B42E82B9B96A60015C59A /* AddEditViewController.swift */; };
+		8D4B42EC2B9BA32F0015C59A /* Esg-ZenGrove.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B42EA2B9BA32F0015C59A /* Esg-ZenGrove.xcdatamodeld */; };
 		8D929AC52B9A4665002F6FAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D929AC42B9A4665002F6FAE /* AppDelegate.swift */; };
 		8D929AC72B9A4665002F6FAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D929AC62B9A4665002F6FAE /* SceneDelegate.swift */; };
 		8D929AC92B9A4665002F6FAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D929AC82B9A4665002F6FAE /* ViewController.swift */; };
@@ -16,6 +18,12 @@
 		8D929ADC2B9A466B002F6FAE /* ESG_ZenGroveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D929ADB2B9A466B002F6FAE /* ESG_ZenGroveTests.swift */; };
 		8D929AE62B9A466B002F6FAE /* ESG_ZenGroveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D929AE52B9A466B002F6FAE /* ESG_ZenGroveUITests.swift */; };
 		8D929AE82B9A466B002F6FAE /* ESG_ZenGroveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D929AE72B9A466B002F6FAE /* ESG_ZenGroveUITestsLaunchTests.swift */; };
+		8D929AFE2B9A6B98002F6FAE /* UIViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D929AFD2B9A6B98002F6FAE /* UIViewController+CoreData.swift */; };
+		8D929B032B9A7345002F6FAE /* ESGTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D929B022B9A7345002F6FAE /* ESGTableViewCell.swift */; };
+		8D929B0A2B9A793D002F6FAE /* ESG+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D929B082B9A793D002F6FAE /* ESG+CoreDataClass.swift */; };
+		8D929B0B2B9A793D002F6FAE /* ESG+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D929B092B9A793D002F6FAE /* ESG+CoreDataProperties.swift */; };
+		8DBC3BC82B9BB4B900F175A1 /* ESGTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBC3BC72B9BB4B900F175A1 /* ESGTableViewController.swift */; };
+		8DBC3BCA2B9BC72F00F175A1 /* iPhone_15_Pro__iPhone_15__iPhone_14_Pro_portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DBC3BC92B9BC72F00F175A1 /* iPhone_15_Pro__iPhone_15__iPhone_14_Pro_portrait.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D4B42E82B9B96A60015C59A /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		8D4B42EB2B9BA32F0015C59A /* Esg-ZenGrove.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Esg-ZenGrove.xcdatamodel"; sourceTree = "<group>"; };
 		8D929AC12B9A4665002F6FAE /* ESG-ZenGrove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESG-ZenGrove.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D929AC42B9A4665002F6FAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D929AC62B9A4665002F6FAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,12 @@
 		8D929AE12B9A466B002F6FAE /* ESG-ZenGroveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESG-ZenGroveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D929AE52B9A466B002F6FAE /* ESG_ZenGroveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESG_ZenGroveUITests.swift; sourceTree = "<group>"; };
 		8D929AE72B9A466B002F6FAE /* ESG_ZenGroveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESG_ZenGroveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D929AFD2B9A6B98002F6FAE /* UIViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+CoreData.swift"; sourceTree = "<group>"; };
+		8D929B022B9A7345002F6FAE /* ESGTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESGTableViewCell.swift; sourceTree = "<group>"; };
+		8D929B082B9A793D002F6FAE /* ESG+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ESG+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8D929B092B9A793D002F6FAE /* ESG+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ESG+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8DBC3BC72B9BB4B900F175A1 /* ESGTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESGTableViewController.swift; sourceTree = "<group>"; };
+		8DBC3BC92B9BC72F00F175A1 /* iPhone_15_Pro__iPhone_15__iPhone_14_Pro_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhone_15_Pro__iPhone_15__iPhone_14_Pro_portrait.png; path = "../../../../Downloads/splash_screens (1)/splash_screens/iPhone_15_Pro__iPhone_15__iPhone_14_Pro_portrait.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				8D929AC32B9A4665002F6FAE /* ESG-ZenGrove */,
-				8D929ADA2B9A466B002F6FAE /* ESG-ZenGroveTests */,
 				8D929AE42B9A466B002F6FAE /* ESG-ZenGroveUITests */,
 				8D929AC22B9A4665002F6FAE /* Products */,
 			);
@@ -99,13 +114,22 @@
 		8D929AC32B9A4665002F6FAE /* ESG-ZenGrove */ = {
 			isa = PBXGroup;
 			children = (
+				8D4B42EA2B9BA32F0015C59A /* Esg-ZenGrove.xcdatamodeld */,
+				8D929B082B9A793D002F6FAE /* ESG+CoreDataClass.swift */,
+				8D929B092B9A793D002F6FAE /* ESG+CoreDataProperties.swift */,
 				8D929AC42B9A4665002F6FAE /* AppDelegate.swift */,
+				8D929AFD2B9A6B98002F6FAE /* UIViewController+CoreData.swift */,
 				8D929AC62B9A4665002F6FAE /* SceneDelegate.swift */,
 				8D929AC82B9A4665002F6FAE /* ViewController.swift */,
+				8D929ADA2B9A466B002F6FAE /* ESG-ZenGroveTests */,
 				8D929ACA2B9A4665002F6FAE /* Main.storyboard */,
 				8D929ACD2B9A4667002F6FAE /* Assets.xcassets */,
+				8DBC3BC92B9BC72F00F175A1 /* iPhone_15_Pro__iPhone_15__iPhone_14_Pro_portrait.png */,
 				8D929ACF2B9A4667002F6FAE /* LaunchScreen.storyboard */,
 				8D929AD22B9A4667002F6FAE /* Info.plist */,
+				8D929B022B9A7345002F6FAE /* ESGTableViewCell.swift */,
+				8D4B42E82B9B96A60015C59A /* AddEditViewController.swift */,
+				8DBC3BC72B9BB4B900F175A1 /* ESGTableViewController.swift */,
 			);
 			path = "ESG-ZenGrove";
 			sourceTree = "<group>";
@@ -233,6 +257,7 @@
 			files = (
 				8D929ACE2B9A4667002F6FAE /* Assets.xcassets in Resources */,
 				8D929AD12B9A4667002F6FAE /* Base in Resources */,
+				8DBC3BCA2B9BC72F00F175A1 /* iPhone_15_Pro__iPhone_15__iPhone_14_Pro_portrait.png in Resources */,
 				8D929ACC2B9A4665002F6FAE /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DBC3BC82B9BB4B900F175A1 /* ESGTableViewController.swift in Sources */,
 				8D929AC92B9A4665002F6FAE /* ViewController.swift in Sources */,
+				8D929B032B9A7345002F6FAE /* ESGTableViewCell.swift in Sources */,
+				8D929AFE2B9A6B98002F6FAE /* UIViewController+CoreData.swift in Sources */,
 				8D929AC52B9A4665002F6FAE /* AppDelegate.swift in Sources */,
+				8D4B42E92B9B96A60015C59A /* AddEditViewController.swift in Sources */,
+				8D929B0A2B9A793D002F6FAE /* ESG+CoreDataClass.swift in Sources */,
+				8D4B42EC2B9BA32F0015C59A /* Esg-ZenGrove.xcdatamodeld in Sources */,
+				8D929B0B2B9A793D002F6FAE /* ESG+CoreDataProperties.swift in Sources */,
 				8D929AC72B9A4665002F6FAE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,8 +479,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,9 +488,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fiap.ESG-ZenGrove";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -474,8 +510,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,9 +519,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fiap.ESG-ZenGrove";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -601,6 +641,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8D4B42EA2B9BA32F0015C59A /* Esg-ZenGrove.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8D4B42EB2B9BA32F0015C59A /* Esg-ZenGrove.xcdatamodel */,
+			);
+			currentVersion = 8D4B42EB2B9BA32F0015C59A /* Esg-ZenGrove.xcdatamodel */;
+			path = "Esg-ZenGrove.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8D929AB92B9A4665002F6FAE /* Project object */;
 }
