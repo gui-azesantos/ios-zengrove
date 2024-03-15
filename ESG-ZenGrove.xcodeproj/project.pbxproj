@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8D4B42E92B9B96A60015C59A /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B42E82B9B96A60015C59A /* AddEditViewController.swift */; };
 		8D4B42EC2B9BA32F0015C59A /* Esg-ZenGrove.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B42EA2B9BA32F0015C59A /* Esg-ZenGrove.xcdatamodeld */; };
+		8D5074942BA4BA4100BDDC61 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5074932BA4BA4100BDDC61 /* LoginViewController.swift */; };
+		8D5074982BA4CF6500BDDC61 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5074972BA4CF6500BDDC61 /* CustomSegue.swift */; };
 		8D929AC52B9A4665002F6FAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D929AC42B9A4665002F6FAE /* AppDelegate.swift */; };
 		8D929AC72B9A4665002F6FAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D929AC62B9A4665002F6FAE /* SceneDelegate.swift */; };
 		8D929AC92B9A4665002F6FAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D929AC82B9A4665002F6FAE /* ViewController.swift */; };
@@ -46,6 +48,8 @@
 /* Begin PBXFileReference section */
 		8D4B42E82B9B96A60015C59A /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
 		8D4B42EB2B9BA32F0015C59A /* Esg-ZenGrove.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Esg-ZenGrove.xcdatamodel"; sourceTree = "<group>"; };
+		8D5074932BA4BA4100BDDC61 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8D5074972BA4CF6500BDDC61 /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
 		8D929AC12B9A4665002F6FAE /* ESG-ZenGrove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESG-ZenGrove.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D929AC42B9A4665002F6FAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D929AC62B9A4665002F6FAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 				8D929B022B9A7345002F6FAE /* ESGTableViewCell.swift */,
 				8D4B42E82B9B96A60015C59A /* AddEditViewController.swift */,
 				8DBC3BC72B9BB4B900F175A1 /* ESGTableViewController.swift */,
+				8D5074932BA4BA4100BDDC61 /* LoginViewController.swift */,
+				8D5074972BA4CF6500BDDC61 /* CustomSegue.swift */,
 			);
 			path = "ESG-ZenGrove";
 			sourceTree = "<group>";
@@ -287,12 +293,14 @@
 				8D929AC92B9A4665002F6FAE /* ViewController.swift in Sources */,
 				8D929B032B9A7345002F6FAE /* ESGTableViewCell.swift in Sources */,
 				8D929AFE2B9A6B98002F6FAE /* UIViewController+CoreData.swift in Sources */,
+				8D5074982BA4CF6500BDDC61 /* CustomSegue.swift in Sources */,
 				8D929AC52B9A4665002F6FAE /* AppDelegate.swift in Sources */,
 				8D4B42E92B9B96A60015C59A /* AddEditViewController.swift in Sources */,
 				8D929B0A2B9A793D002F6FAE /* ESG+CoreDataClass.swift in Sources */,
 				8D4B42EC2B9BA32F0015C59A /* Esg-ZenGrove.xcdatamodeld in Sources */,
 				8D929B0B2B9A793D002F6FAE /* ESG+CoreDataProperties.swift in Sources */,
 				8D929AC72B9A4665002F6FAE /* SceneDelegate.swift in Sources */,
+				8D5074942BA4BA4100BDDC61 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
